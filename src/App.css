@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -moz-border: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: Helvetica, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
+.sidebar{
+  width: 100%;
+  height: 100%;
+  padding: 25px 10px;
+  background-color: rgb(145, 107, 107);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar ul{
+  list-style-type: none;
+  padding: 25px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar ul li {
+  margin: 15px 0px;
+}
+
+
+.sidebar ul li a{
+  color : #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link , .navbar-brand{
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.table{
+  margin-top: 5%;
+  
+}
+
+table td, .table th {
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 0px solid #dee2e6;
+}
+
+.add-form{
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.add-form .form-group label{
+  font-weight: 600;
+  font-size: 18px;
 }
